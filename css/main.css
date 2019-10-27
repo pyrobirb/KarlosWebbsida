@@ -24,6 +24,16 @@
 *{
     background-image: url(img/landscape-4527525_1920.jpg);
 }
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(/img/landscape-4527525_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
 
 ::-moz-selection {
   background: #b3d4fc;
