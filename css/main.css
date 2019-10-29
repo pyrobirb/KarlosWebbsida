@@ -45,7 +45,7 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(/img/background-scaled.JPG);
+  background-image: url(background-scaled.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,6 +225,7 @@ textarea {
     max-width:333px;
     width:86%;
   }
+}
   @media only screen and (max-width: 408px) {
     .headerfix{
       font-size: 2rem;
@@ -318,7 +319,7 @@ textarea {
 }
 
 .bg-image {
-  background-image: url(/img/background-scaled.JPG);
+  background-image: url(background-scaled.jpg);
   background-size: cover;
   background-position: left;
 }
