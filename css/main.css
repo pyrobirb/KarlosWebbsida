@@ -45,7 +45,7 @@
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url(background-scaled.jpg);
+  background-image: url("/img/background-scaled.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -319,7 +319,7 @@ textarea {
 }
 
 .bg-image {
-  background-image: url(background-scaled.jpg);
+  background-image: url("/img/background-scaled.jpg");
   background-size: cover;
   background-position: left;
 }
