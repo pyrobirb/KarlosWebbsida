@@ -20,6 +20,35 @@
  *
  * Customize the background color to match your design.
  */
+#whitegrid{
+  background-color:white;
+}
+
+ .grid1, .grid2, .grid3, .grid4{
+    margin:0.4em;
+    padding:auto;
+    text-align:center;
+    box-sizing:border-box;
+ }
+ .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+  background-color: #343A40;
+  color:white;
+}
+.gridtextheader{
+  font-size: 1.8em;
+}
+.gridtextparagraph{
+  font-size: 0.8em; 
+}
+
+  
+.div1 { grid-area: 2 / 2 / 4 / 4; }
+
 
 .headerfix {
   text-shadow: -1px 2px 2px #000000;
@@ -31,7 +60,7 @@
 
 .footer{
   padding-bottom: 55px;
-  background: rgb(45, 45, 45);
+  background: #343A40;
   color: white;
 }
 .footer > h4 {
@@ -225,6 +254,13 @@ textarea {
     max-width:333px;
     width:86%;
   }
+}
+@media only screen and (max-width: 510px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
 }
   @media only screen and (max-width: 408px) {
     .headerfix{
