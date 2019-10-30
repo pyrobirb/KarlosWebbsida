@@ -20,6 +20,29 @@
  *
  * Customize the background color to match your design.
  */
+
+.servicelist{
+list-style-type: disc;
+ 
+}
+
+#reviewsheader{
+  background-color: #343A40;
+  color:white;
+  padding: 20px;
+  margin-bottom:0;
+}
+
+.stars{
+  background:rgb(41, 41, 41);
+  padding:4px 10px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 350px;
+  justify-content: center;
+}
+
 #whitegrid{
   background-color:white;
 }
