@@ -20,7 +20,21 @@
  *
  * Customize the background color to match your design.
  */
-
+.boilerplate img{
+  width:50%;
+}
+.footergrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+  background-color: #343A40;
+  color:white;
+}
+.footergrid p{
+  max-width: 600px;
+}
 
  #toTop {
   padding: 10px;
@@ -59,7 +73,6 @@ list-style-type: disc;
 
  .grid1, .grid2, .grid3, .grid4{
     margin:0.4em;
-    padding:auto;
     text-align:center;
     box-sizing:border-box;
  }
@@ -80,7 +93,7 @@ list-style-type: disc;
 }
 
   
-.div1 { grid-area: 2 / 2 / 4 / 4; }
+
 
 
 .headerfix {
@@ -92,18 +105,12 @@ list-style-type: disc;
 }
 
 .footer{
-  padding-bottom: 55px;
+  padding-bottom: 10px;
   background: #343A40;
   color: white;
+
 }
-.footer > h4 {
-  margin-top:20px;
-  margin-left:20px;
-}
-.footer > p {
-  margin-top:0px;
-  margin-left:20px;
-}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -292,6 +299,13 @@ textarea {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+}
+.footergrid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.footergrid h3{
+  margin-top:0;
 }
 
 }
@@ -487,5 +501,95 @@ textarea {
   }
   .form-label-group input:-ms-input-placeholder {
     color: #777;
+  }
+}
+
+
+
+
+/*MODAL IMAGEVIEWER*/
+
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #000000;
+  background-color: #f1f1f1;
+  font-size: 80px;
+  font-weight: bold;
+  transition: 0.3s;
+  padding: 22px;
+  border-radius: 55px;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
   }
 }
