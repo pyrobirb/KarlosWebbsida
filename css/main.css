@@ -21,9 +21,19 @@
  * Customize the background color to match your design.
  */
 
+
+ #toTop {
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  display: none;
+}
+
 .servicelist{
 list-style-type: disc;
- 
+
 }
 
 #reviewsheader{
