@@ -16,9 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
-
-
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="##343A40">
 </head>
 
 <body>
@@ -34,7 +32,7 @@
   <!-- NAVIGATION BAR -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
     <div class="container">
-      <a href="index.html"><img src="/img/platelogo.png" class="logo" alt=""></a>
+      <a href="index.html"><img src="../img/platelogo.png" class="logo" alt=""></a>
       <a class="navbar-brand" href="index.html">ProPlate</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,11 +73,12 @@
             <p class="lead"> (Caution: served hot)</p>
           </article>
 
-          <a href="#" class="btn btn-success btn-lg active buttonfix" role="button" aria-pressed="true">Download Now
-            (v4.4)</a>
+          <a href="download.zip" download><button href="#" class="btn btn-success btn-lg active buttonfix" role="button" aria-pressed="true">Download Now
+            (v4.4)</button></a>
+          
 
-          <a href="#" class="btn btn-secondary btn-lg active buttonfix" role="button" aria-pressed="true">Read
-            more about our BoilerPlate</a>
+          <button href="download.zip" class="btn btn-secondary btn-lg active buttonfix" role="button" aria-pressed="true">Read
+            more about our BoilerPlate</button>
 
         </div>
 
@@ -89,7 +88,7 @@
   </header>
 
   <!--TO TOP BUTTON-->
-  <img src="/img/arrow.png" alt="" id="toTop">
+  <img src="../img/arrow.png" alt="Button go to top of page" id="toTop">
   <!--<div id='toTop'>To The Top!</div>-->
 
   <!-- SERVICES -->
@@ -189,7 +188,7 @@
 
   <div class="grid">
     <div class="grid1">
-      <img src="img/reviewavatar.png" alt="">
+      <img src="../img/reviewavatar.png" alt="">
 
       <h3 class="gridtextheader">Professional Person</h3>
       <blockquote class="blockquote blockquote-reverse">
@@ -220,7 +219,7 @@
       </blockquote>
     </div>
     <div class="grid2">
-      <img src="img/reviewavatar.png" alt="">
+      <img src="../img/reviewavatar.png" alt="">
 
       <h3 class="gridtextheader">Professional Person</h3>
       <blockquote class="blockquote blockquote-reverse">
@@ -253,7 +252,7 @@
     </div>
 
     <div class="grid3">
-      <img src="img/reviewavatar.png" alt="">
+      <img src="../img/reviewavatar.png" alt="">
       <h3 class="gridtextheader">Professional Person</h3>
       <blockquote class="blockquote blockquote-reverse">
 
@@ -285,7 +284,7 @@
     </div>
 
     <div class="grid4">
-      <img src="img/reviewavatar.png" alt="">
+      <img src="../img/reviewavatar.png" alt="">
 
       <h3 class="gridtextheader">Professional Person</h3>
       <blockquote class="blockquote blockquote-reverse">
@@ -351,7 +350,7 @@
             <article>
               <h3 class="mt-4">Screenshot of ProPlate BoilerPlate head content</h3>
 
-              <img id="myImg" src="/img/cropped-screenshot.jpg" alt="Image showing a screenshot of ProPlate's BoilerPlate head content" >
+              <img id="myImg" src="../img/cropped-screenshot.jpg" alt="Image showing a screenshot of ProPlate's BoilerPlate head content" >
 
               <!-- The Modal -->
               <div id="myModal" class="modal">
@@ -374,7 +373,7 @@
             <article>
                 <h3 class="mt-4">Screenshot of ProPlate BoilerPlate File Tree</h3>
                 
-                  <img src="/img/filetree.jpg" alt="Image showing the file tree of ProPlate's BoilerPlate">
+                  <img src="../img/filetree.jpg" alt="Image showing the file tree of ProPlate's BoilerPlate">
 
 
                   <p>Tenderloin filet mignon chicken,
@@ -402,17 +401,22 @@
     <!-- CONTACT US -->
     <div class="footergrid">  
     <div class="grid1">
-          <h3 class="mt-4 text-left" id="contactus">Contact us</h3>
+          <h3 class="mt-4 text-left ml-1" id="contactus">Contact us</h3>
           
-          <p class="text-left">Cow spare ribs short loin tri-tip, chicken venison pastrami 
-            jerky boudin jowl sausage filet mignon fatback drumstick. 
-            Bacon jerky strip steak prosciutto ball tip, hamburger venison 
-            buffalo leberkas short loin corned beef cow.</p>
+          <ul class="list-inline">
+
+                <li class="text-left ml-1">Box 14</li>
+                <li class="text-left ml-1">Storgatan 14</li>
+                <li class="text-left ml-1">523 39 Borås, Sweden</li>
+                <li class="text-left ml-1"><a href="tel:+4670510999">+4670510999</li>
+                <li class="text-left ml-1"><a href="mailto:info@proplate.com">info@proplate.com</a></li>
+
+          </ul>
         </div>
 
         <div class="grid2">
-            <h3 class="mt-4 text-left" id="aboutus">About us</h3>
-            <p class="text-left">Cow spare ribs short loin tri-tip, chicken venison pastrami 
+            <h3 class="mt-4 text-left ml-1" id="aboutus">About ProPlate</h3>
+            <p class="text-left ml-1">Cow spare ribs short loin tri-tip, chicken venison pastrami 
               jerky boudin jowl sausage filet mignon fatback drumstick. 
               Bacon jerky strip steak prosciutto ball tip, hamburger venison 
               buffalo leberkas short loin corned beef cow.</p>

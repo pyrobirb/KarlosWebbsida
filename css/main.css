@@ -40,9 +40,10 @@
   padding: 10px;
   color: #fff;
   position: fixed;
-  bottom: 0;
-  right: 5px;
+  bottom: 10px;
+  right: 10px;
   display: none;
+  width:60px;
 }
 
 .servicelist{
@@ -114,7 +115,7 @@ list-style-type: disc;
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url("/img/background-scaled.jpg");
+  background-image: url("../img/background-scaled.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
