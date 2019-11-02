@@ -35,6 +35,9 @@
 .footergrid p{
   max-width: 600px;
 }
+.gridboilerplate{
+  margin-top:50px;
+}
 
  #toTop {
   padding: 10px;
