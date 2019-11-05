@@ -22,7 +22,6 @@
  */
 
 
-
 .boilerplate img{
   width:50%;
 }
@@ -99,9 +98,6 @@ list-style-type: disc;
 .gridtextparagraph{
   font-size: 0.8em; 
 }
-
-  
-
 
 
 .headerfix {
@@ -512,8 +508,6 @@ textarea {
     color: #777;
   }
 }
-
-
 
 
 /*MODAL IMAGEVIEWER*/
