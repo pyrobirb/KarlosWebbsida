@@ -295,6 +295,8 @@ textarea {
 
 }
 
+
+/* My Media queries */
 @media only screen and (max-width: 850px) {
   .buttonfix{
     margin: 0.4em auto;
@@ -394,7 +396,6 @@ textarea {
     page-break-after: avoid;
   }
 }
-
 
 
 /* LOGIN PAGE */
