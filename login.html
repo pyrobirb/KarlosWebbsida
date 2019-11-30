@@ -26,13 +26,12 @@
     <div class="container">
         <a href="index.html"><img src="img/platelogo.png" class="logo" alt="ProPlate's logo, a plate with flames coming from it in rounded white pixels "></a>
         <a class="navbar-brand" href="index.html">ProPlate</a>
-      <button class="navbar-toggler" type="button" data-toggle="none" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+      
+
       <div class="navbar-expand" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link text-primary" href="index.html">Go back home
+            <a class="nav-link text-primary" aria-label="Go back to homescreen" href="index.html">Go back home
                   <span class="sr-only">(current)</span>
                 </a>
         </ul>
@@ -52,22 +51,22 @@
                 <h3 class="login-heading mb-4 mt-4">Welcome back!</h3>
                 <form>
                   <div class="form-label-group">
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    <input type="email" id="inputEmail" aria-label="Enter email address" class="form-control" placeholder="Email address" required autofocus>
                     <label for="inputEmail">Email address</label>
                   </div>
   
                   <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <input type="password" id="inputPassword" aria-label="Enter password" class="form-control" placeholder="Password" required>
                     <label for="inputPassword">Password</label>
                   </div>
   
                   <div class="custom-control custom-checkbox mb-3">
-                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <input type="checkbox" aria-label="Remember password tickbox" class="custom-control-input" id="customCheck1">
                     <label class="custom-control-label" for="customCheck1">Remember password</label>
                   </div>
-                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit">Sign in</button>
+                  <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" aria-label="Sign in" type="submit">Sign in</button>
                   <div class="text-center">
-                    <a class="small" href="#">Forgot password?</a></div>
+                    <a class="small" aria-label="Forgot password?" href="#">Forgot password?</a></div>
                 </form>
               </div>
             </div>
